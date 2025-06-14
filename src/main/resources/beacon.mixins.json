@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "com.space333.beacon.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BeaconBlockEntityMixin",
+    "BeaconBlockMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "GameRenderMixin",
+    "MinecraftClientMixin"
+  ]
+}
